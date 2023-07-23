@@ -24,6 +24,6 @@ def process():
 string_pass = StringVar()
 label = Label(text="Password Length").pack(pady=10)
 txt = Entry(textvariable=string_pass).pack()
-btn = Button(text="Generator", command=process).pack(pady=10)
+btn = Button(text="Generate", command=process).pack(pady=10)
 
 gui.mainloop()
